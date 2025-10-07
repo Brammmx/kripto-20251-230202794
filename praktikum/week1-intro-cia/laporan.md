@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
+Minggu ke-: 1 
+Topik: [Praktikum Program Caesar Chiper]  
 Nama: [Bramby Dida Baskara]  
 NIM: [230202794]  
 Kelas: [5IKRA]  
@@ -8,53 +8,83 @@ Kelas: [5IKRA]
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+(Tujuan dari praktikum ini adalah untuk memahami konsep dasar kriptografi, mengenal istilah dan komponen utama dalam sistem kriptografi (plaintext, ciphertext, kunci, algoritma), serta menerapkan metode enkripsi sederhana seperti Caesar Cipher sebagai pengenalan terhadap sistem keamanan informasi.)
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+(Kriptografi sebuah ilmu dan seni untuk menjaga keamanan pesan dengan cara mengubah bentuk pesan asli (plaintext) menjadi bentuk yang tidak dapat dibaca (ciphertext) agar hanya pihak yang berhak yang dapat memahaminya. Kata kriptografi berasal dari bahasa Yunani “kryptos” (tersembunyi) dan “graphein” (menulis).
+
+Dalam sejarahnya, kriptografi klasik menggunakan metode sederhana seperti Caesar Cipher dan Skitala Spartan. Pada Caesar Cipher, huruf-huruf pada pesan digeser sejauh jumlah tertentu. Sedangkan kriptografi modern telah berkembang menjadi sistem kompleks seperti RSA, AES, dan ECC yang digunakan dalam keamanan data, komunikasi, dan transaksi digital.
+
+Prinsip dasar kriptografi meliputi kerahasiaan (confidentiality), integritas (integrity), dan autentikasi (authentication). Ketiganya menjadi pondasi utama dalam menjaga keamanan informasi di era digital.)
 
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+(Python 3.x
+
+Visual Studio Code / editor lain
+
+Git dan akun GitHub
+
+Library tambahan (misalnya pycryptodome, jika diperlukan))
 
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+(1.Membuat folder praktikum/week1-cryptography/.
 
+2.Membuat file caesar_cipher.py di dalam folder tersebut.
+
+3.Menulis program untuk melakukan enkripsi dan dekripsi menggunakan metode Caesar Cipher.
+
+4.Menjalankan program dengan perintah: 
+python caesar_cipher.py
+
+5.Menguji hasil dengan berbagai kombinasi plaintext dan kunci.
+
+6.Mengunggah hasil dan kode program ke repositori GitHub.
 ---
+
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
+(# caesar_cipher.py
 
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
+def encrypt(text, shift):
+    result = ""
+    for char in text:
+        if char.isalpha():
+            start = 65 if char.isupper() else 97
+            result += chr((ord(char) - start + shift) % 26 + start)
+        else:
+            result += char
+    return result
+
+def decrypt(ciphertext, shift):
+    return encrypt(ciphertext, -shift)
+
+# Contoh penggunaan
+plain = "HELLO"
+key = 3
+cipher = encrypt(plain, key)
+print("Plaintext :", plain)
+print("Ciphertext:", cipher)
+print("Dekripsi  :", decrypt(cipher, key))
+
 
 ---
 
-## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
+## 6. Hasil dan Pembahasan
+(Hasil eksekusi program Caesar Cipher menunjukkan bahwa pesan "HELLO" dengan pergeseran 3 menghasilkan ciphertext "KHOOR".
+Program juga berhasil mengembalikan ciphertext ke bentuk semula menggunakan fungsi dekripsi.
+| Input | Kunci | Output Enkripsi | Output Dekripsi |
+| :---- | :---- | :-------------- | :-------------- |
+| HELLO | 3     | KHOOR           | HELLO           |
+| WORLD | 5     | BTWQI           | WORLD           |
+
+Hasil eksekusi program Caesar Cipher: Hasil sesuai dengan teori Caesar Cipher. Tidak ditemukan error selama eksekusi.
 
 ![Hasil Eksekusi](screenshots/output.png)
 ![Hasil Input](screenshots/input.png)
@@ -64,22 +94,29 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+(1. Apa tujuan utama dari kriptografi?
+Menjaga kerahasiaan, integritas, dan autentikasi data agar hanya pihak berwenang yang dapat mengakses informasi.
+
+2. Sebutkan contoh algoritma kriptografi modern!
+AES, RSA, ECC, Diffie-Hellman, dan SHA-256.
+
+3. Apa perbedaan antara plaintext dan ciphertext?
+Plaintext adalah pesan asli yang dapat dibaca, sedangkan ciphertext adalah pesan hasil enkripsi yang tidak dapat dibaca tanpa kunci.)
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+(Melalui praktikum ini, mahasiswa memahami dasar-dasar kriptografi serta cara kerja metode enkripsi sederhana seperti Caesar Cipher. Praktikum ini menjadi dasar untuk memahami sistem keamanan modern yang lebih kompleks seperti RSA dan AES.)
 
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+(Setyaningsih, E. (2015). Kriptografi dan Aplikasinya Menggunakan MATLAB. ANDI OFFSET, Yogyakarta.
+
+William Stallings. (2017). Cryptography and Network Security: Principles and Practice. Pearson.
+
+Bruce Schneier. (1996). Applied Cryptography. John Wiley & Sons.
+
+Jonathan Katz & Yehuda Lindell. (2014). Introduction to Modern Cryptography. CRC Press.)
 
 ---
 
@@ -87,9 +124,12 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit a1b2c3d4
+Author: bramby <brammmx@github.com>
+Date:   2025-10-07
+
+    Add: Caesar Cipher encryption & decryption program
+
 
     week2-cryptosystem: implementasi Caesar Cipher dan laporan )
 ```
