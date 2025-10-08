@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 1 
-Topik: [Praktikum Program Caesar Chiper]  
+Minggu ke-: 1
+Topik: [week1-intro-cia]  
 Nama: [Bramby Dida Baskara]  
 NIM: [230202794]  
 Kelas: [5IKRA]  
@@ -22,14 +22,7 @@ Prinsip dasar kriptografi meliputi kerahasiaan (confidentiality), integritas (in
 ---
 
 ## 3. Alat dan Bahan
-(Python 3.x
-
-Visual Studio Code / editor lain
-
-Git dan akun GitHub
-
-Library tambahan (misalnya pycryptodome, jika diperlukan))
-
+(Git dan akun GitHub)
 ---
 
 ## 4. Langkah Percobaan
@@ -49,20 +42,7 @@ python caesar_cipher.py
 
 
 ## 5. Source Code
-(# caesar_cipher.py
-
-def encrypt(text, shift):
-    result = ""
-    for char in text:
-        if char.isalpha():
-            start = 65 if char.isupper() else 97
-            result += chr((ord(char) - start + shift) % 26 + start)
-        else:
-            result += char
-    return result
-
-def decrypt(ciphertext, shift):
-    return encrypt(ciphertext, -shift)
+(https://github.com/Brammmx/kripto-20251-230202794/edit/main/praktikum/week1-intro-cia/laporan.md)
 
 # Contoh penggunaan
 plain = "HELLO"
@@ -126,7 +106,7 @@ Contoh:
 ```
 commit a1b2c3d4
 Author: bramby <brammmx@github.com>
-Date:   2025-10-07
+Date:   2025-10-3
 
     Add: Caesar Cipher encryption & decryption program
 
