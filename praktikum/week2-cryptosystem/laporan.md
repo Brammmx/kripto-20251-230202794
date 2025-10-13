@@ -1,28 +1,34 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
 Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: [Bramby Dida Baskara]  
+NIM: [230202794]  
+Kelas: [5 IKRA]  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
+Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).
+Menjelaskan proses enkripsi dan dekripsi sederhana.
+Mengklasifikasikan jenis kriptosistem menjadi simetris dan asimetris.
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Kriptografi merupakan ilmu yang mempelajari cara melindungi pesan agar hanya pihak yang berwenang dapat membacanya. Pesan asli disebut plaintext, hasil enkripsi disebut ciphertext, sedangkan proses untuk mengubah plaintext menjadi ciphertext disebut enkripsi, dan kebalikannya disebut dekripsi.
+
+Suatu kriptosistem terdiri atas beberapa komponen utama, yaitu algoritma enkripsi, algoritma dekripsi, kunci (key), plaintext, dan ciphertext. Kunci berperan penting dalam menentukan keamanan sistem, karena algoritma umumnya bersifat publik.
+
+Terdapat dua jenis utama kriptografi:
+
+Kriptografi Simetris, di mana kunci enkripsi dan dekripsi sama (contohnya Caesar Cipher, AES, DES).
+
+Kriptografi Asimetris, yang menggunakan dua kunci berbeda, yaitu kunci publik dan kunci privat (contohnya RSA, ECC).
 
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
 
 ---
 
