@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
+Minggu ke-: 2 
+Topik: [Cryptosystem (Komponen, Enkripsi & Dekripsi, Simetris & Asimetris)]  
 Nama: [Bramby Dida Baskara]  
 NIM: [230202794]  
 Kelas: [5 IKRA]  
