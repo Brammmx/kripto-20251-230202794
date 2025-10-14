@@ -77,15 +77,26 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Cryptosystem adalah sistem untuk menjaga keamanan data melalui proses enkripsi (mengubah plaintext menjadi ciphertext) dan dekripsi (mengembalikannya ke bentuk semula). Komponennya meliputi plaintext, ciphertext, algoritma, dan kunci.
+Terdapat dua jenis utama:
+
+Simetris: menggunakan satu kunci yang sama untuk enkripsi dan dekripsi.
+
+Asimetris: menggunakan dua kunci berbeda (publik dan privat).
+Secara keseluruhan, cryptosystem penting untuk melindungi data dan komunikasi dari akses tidak sah.
 
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+IBM. Cryptography Types. IBM Think. Diakses dari: https://www.ibm.com/id-id/think/topics/cryptography-types
+
+IBM. Asymmetric Encryption. IBM Think. Diakses dari: https://www.ibm.com/id-id/think/topics/asymmetric-encryption
+
+ResearchGate. Kriptografi: Teknik Keamanan Data. Diakses dari: https://www.researchgate.net/publication/373655214_Kriptografi_Teknik_Keamanan_Data
+
+PusatSSL. Enkripsi Simetris dan Asimetris. Diakses dari: https://pusatssl.com/order/knowledgebase/16/Enkripsi-Simetris-dan-Asimetris.html
+
+Digilib STEKOM. Modern Kriptografi. Diakses dari: https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_B8KFO97sXQEkipqdykDJ67yV7946c7deiDGg8j2FlAjTo98D-33QS5c_1721377496.pdf
 
 ---
 
