@@ -70,11 +70,15 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+Sebutkan komponen utama dalam sebuah kriptosistem.
+Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?
+Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris?
+
+Komponen utama kriptosistem: plaintext (data asli), ciphertext (data terenkripsi), algoritma (prosedur enkripsi/dekripsi), dan kunci (key) yang mengontrol proses.
+
+Sistem simetris lebih cepat dan efisien untuk data besar, tetapi membutuhkan distribusi kunci yang aman dan rentan jika kunci bocor. Sistem asimetris lebih aman karena menggunakan kunci publik dan privat, tapi lebih lambat dan kurang efisien untuk data besar.
+
+Distribusi kunci menjadi masalah utama pada kriptografi simetris karena kunci yang sama harus dikirim secara aman; jika jatuh ke pihak tidak berwenang, keamanan data terancam.---
 
 ## 8. Kesimpulan
 Cryptosystem adalah sistem untuk menjaga keamanan data melalui proses enkripsi (mengubah plaintext menjadi ciphertext) dan dekripsi (mengembalikannya ke bentuk semula). Komponennya meliputi plaintext, ciphertext, algoritma, dan kunci.
