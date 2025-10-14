@@ -6,7 +6,7 @@ NIM: [230202794]
 Kelas: [5IKRA]  
 
 ---
-
+![Setup GitHub](screenshots/repo_setup.png)
 ## 1. Tujuan
 (Tujuan dari praktikum ini adalah untuk memahami konsep dasar kriptografi, mengenal istilah dan komponen utama dalam sistem kriptografi (plaintext, ciphertext, kunci, algoritma), serta menerapkan metode enkripsi sederhana seperti Caesar Cipher sebagai pengenalan terhadap sistem keamanan informasi.)
 
