@@ -93,7 +93,7 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
+commit abc123454455
 Author: Nama Mahasiswa <email>
 Date:   2025-09-20
 
