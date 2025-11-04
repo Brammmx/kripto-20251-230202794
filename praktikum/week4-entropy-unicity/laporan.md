@@ -91,7 +91,8 @@ print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
 Caesar Cipher memiliki entropi yang sangat rendah, artinya ruang kunci sangat kecil dan mudah dipecahkan dengan brute force. Sebaliknya, AES-128 memiliki entropi 128 bit, menjadikannya hampir mustahil dipecahkan dengan cara brute force bahkan dengan komputer tercepat sekalipun.
 
 2. Error Handling: Tidak ditemukan error dalam eksekusi program.
----
+
+https://github.com/Brammmx/kripto-20251-230202794/blob/f131e85eca81c486afafd4825ca67b98ec319677/praktikum/week4-entropy-unicity/perhitungan%20entropi.png
 
 ## 7. Jawaban Pertanyaan
 1. Apa arti dari nilai entropy dalam konteks kekuatan kunci?
