@@ -100,7 +100,7 @@ Semua hasil sesuai dengan teori aritmetika modular. Nilai invers modular diperol
 # Aritmetika Modular
 https://github.com/Brammmx/kripto-20251-230202794/blob/62d8644a93abcb1ffc04cdab7964b13312182109/praktikum/week3-modmath-gcd/aritmatika%20modular.png
 # GCD (Algoritma Euclidean)
-
+https://github.com/Brammmx/kripto-20251-230202794/blob/abc02cb18c6e8e5c577a0d54d7b2324494a54e25/praktikum/week3-modmath-gcd/GCD.png
 
 # Extended Euclidean Algorithm & Invers Modular
 
