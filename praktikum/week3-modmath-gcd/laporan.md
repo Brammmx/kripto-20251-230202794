@@ -17,74 +17,10 @@ Menerapkan logaritma diskrit sederhana dalam simulasi kriptografi.
 ---
 
 ## 2. Dasar Teori
-Aritmetika modular merupakan dasar dari berbagai algoritma kriptografi modern, seperti RSA dan Diffie-Hellman.
-Konsep utamanya adalah operasi aritmetika yang dilakukan dalam ruang modulo 
-𝑛
-n, misalnya:
-
-(
-𝑎
-+
-𝑏
-)
-m
-o
-d
- 
- 
-𝑛
-,
-(
-𝑎
-×
-𝑏
-)
-m
-o
-d
- 
- 
-𝑛
-,
-𝑎
-𝑘
-m
-o
-d
- 
- 
-𝑛
-(a+b)modn,(a×b)modn,a
-k
-modn
-
-GCD (Greatest Common Divisor) digunakan untuk menentukan pembagi terbesar dari dua bilangan, dan menjadi dasar untuk mencari invers modular menggunakan Extended Euclidean Algorithm.
-Invers modular penting karena digunakan untuk menemukan kunci privat dalam sistem kriptografi kunci publik.
-
-Logaritma diskrit adalah permasalahan mencari 
-𝑥
-x dari persamaan 
-𝑎
-𝑥
-≡
-𝑏
-(
-m
-o
-d
-𝑛
-)
-a
-x
-≡b(modn). Masalah ini sulit diselesaikan untuk bilangan besar, yang menjadi dasar keamanan banyak algoritma seperti Diffie-Hellman Key Exchange dan ElGamal.
-
----
-
+Modular arithmetic adalah sistem perhitungan yang bekerja berdasarkan sisa hasil bagi suatu bilangan terhadap bilangan modulus tertentu. Dua bilangan dikatakan kongruen jika memiliki sisa pembagian yang sama terhadap modulus yang digunakan, ditulis sebagai 𝑎≡𝑏 (mod 𝑛) a≡b (modn). Konsep ini banyak digunakan dalam kriptografi karena memungkinkan operasi pada bilangan besar tetap efisien dan aman, serta menjadi dasar dari algoritma seperti RSA dan Diffie-Hellman. Greatest Common Divisor (GCD) atau Faktor Persekutuan Terbesar adalah bilangan terbesar yang dapat membagi dua bilangan tanpa sisa. Perhitungannya umumnya dilakukan dengan Algoritma Euclidean yang cepat dan sederhana. Dalam kriptografi, GCD digunakan untuk memastikan dua bilangan bersifat relatif prima, sehingga memungkinkan perhitungan invers modular yang penting dalam pembentukan kunci publik dan privat pada sistem seperti RSA.
 ## 3. Alat dan Bahan  
 - Git dan akun GitHub  
-
-
----
+- Visual Studio Code
 
 ## 4. Langkah Percobaan
 1. Membuat folder praktikum/week3-modmath-gcd/.
@@ -144,7 +80,7 @@ def discrete_log(a, b, n):
 print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))
 
 
----
+
 
 ## 6. Hasil dan Pembahasan
 7 + 5 mod 12 = 0
@@ -165,7 +101,7 @@ Invers 3 mod 11 = 4
 
 Pembahasan:
 Semua hasil sesuai dengan teori aritmetika modular. Nilai invers modular diperoleh menggunakan algoritma Euclidean, sedangkan logaritma diskrit berhasil ditemukan dengan metode brute-force. Tidak ditemukan error selama eksekusi.
----
+
 
 ## 7. Jawaban Pertanyaan
 Peran aritmetika modular dalam kriptografi:
