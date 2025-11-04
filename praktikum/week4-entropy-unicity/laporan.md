@@ -92,7 +92,9 @@ Caesar Cipher memiliki entropi yang sangat rendah, artinya ruang kunci sangat ke
 
 2. Error Handling: Tidak ditemukan error dalam eksekusi program.
 
-https://github.com/Brammmx/kripto-20251-230202794/blob/f131e85eca81c486afafd4825ca67b98ec319677/praktikum/week4-entropy-unicity/perhitungan%20entropi.png
+hasil eksekusi entropy:
+https://github.com/Brammmx/kripto-20251-230202794/blob/f082b19fd741499eeb3964bf5c570595697d39d5/praktikum/week4-entropy-unicity/hasil%20vs%20code.png
+https://github.com/Brammmx/kripto-20251-230202794/blob/f082b19fd741499eeb3964bf5c570595697d39d5/praktikum/week4-entropy-unicity/entropy.png
 
 ## 7. Jawaban Pertanyaan
 1. Apa arti dari nilai entropy dalam konteks kekuatan kunci?
