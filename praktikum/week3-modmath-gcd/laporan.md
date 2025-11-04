@@ -35,8 +35,6 @@ Modular arithmetic adalah sistem perhitungan yang bekerja berdasarkan sisa hasil
 ---
 
 ## 5. Source Code
-# modular_math.py
-
 # Aritmetika Modular
 def mod_add(a, b, n): return (a + b) % n
 def mod_sub(a, b, n): return (a - b) % n
@@ -80,8 +78,6 @@ def discrete_log(a, b, n):
 print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))
 
 
-
-
 ## 6. Hasil dan Pembahasan
 7 + 5 mod 12 = 0
 7 * 5 mod 12 = 11
@@ -101,6 +97,14 @@ Invers 3 mod 11 = 4
 
 Pembahasan:
 Semua hasil sesuai dengan teori aritmetika modular. Nilai invers modular diperoleh menggunakan algoritma Euclidean, sedangkan logaritma diskrit berhasil ditemukan dengan metode brute-force. Tidak ditemukan error selama eksekusi.
+# Aritmetika Modular
+
+# GCD (Algoritma Euclidean)
+
+
+# Extended Euclidean Algorithm & Invers Modular
+
+# Logaritma Diskrit
 
 
 ## 7. Jawaban Pertanyaan
