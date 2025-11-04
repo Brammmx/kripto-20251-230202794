@@ -98,7 +98,7 @@ Invers 3 mod 11 = 4
 Pembahasan:
 Semua hasil sesuai dengan teori aritmetika modular. Nilai invers modular diperoleh menggunakan algoritma Euclidean, sedangkan logaritma diskrit berhasil ditemukan dengan metode brute-force. Tidak ditemukan error selama eksekusi.
 # Aritmetika Modular
-
+https://github.com/Brammmx/kripto-20251-230202794/blob/62d8644a93abcb1ffc04cdab7964b13312182109/praktikum/week3-modmath-gcd/aritmatika%20modular.png
 # GCD (Algoritma Euclidean)
 
 
