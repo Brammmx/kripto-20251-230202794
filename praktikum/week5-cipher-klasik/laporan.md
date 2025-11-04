@@ -150,10 +150,13 @@ Analisis:
 Semua cipher berhasil melakukan enkripsi dan dekripsi sesuai teori.
 
 Caesar Cipher mudah dipecahkan karena hanya memiliki 25 kemungkinan kunci.
+https://github.com/Brammmx/kripto-20251-230202794/blob/212c3fea67bdd6c5910763a8158156491faa2dfe/praktikum/week5-cipher-klasik/caesar%20chiper.png
 
 Vigenère Cipher lebih kuat karena menggunakan kunci kata, tetapi masih dapat diserang dengan analisis pola (misal Kasiski test).
+https://github.com/Brammmx/kripto-20251-230202794/blob/212c3fea67bdd6c5910763a8158156491faa2dfe/praktikum/week5-cipher-klasik/Vigen%C3%A8re%20Cipher.png
 
 Transposisi Cipher tidak mengubah karakter plaintext, hanya urutannya — kombinasi substitusi dan transposisi menghasilkan cipher yang lebih kuat.
+https://github.com/Brammmx/kripto-20251-230202794/blob/212c3fea67bdd6c5910763a8158156491faa2dfe/praktikum/week5-cipher-klasik/transposisi%20cipher.png
 
 ## 7. Jawaban Pertanyaan
 1. Apa kelemahan utama algoritma Caesar dan Vigenère Cipher?
