@@ -103,9 +103,9 @@ https://github.com/Brammmx/kripto-20251-230202794/blob/62d8644a93abcb1ffc04cdab7
 https://github.com/Brammmx/kripto-20251-230202794/blob/abc02cb18c6e8e5c577a0d54d7b2324494a54e25/praktikum/week3-modmath-gcd/GCD.png
 
 # Extended Euclidean Algorithm & Invers Modular
-
+https://github.com/Brammmx/kripto-20251-230202794/blob/8d65b16fadb3b60115c4941f43a08aceec28c8f7/praktikum/week3-modmath-gcd/Extended%20Euclidean%20Algorithm%20%26%20Invers%20Modular.png
 # Logaritma Diskrit
-
+https://github.com/Brammmx/kripto-20251-230202794/blob/f96e2e7b45b03e3f04ca302d8ba17db4d4a037df/praktikum/week3-modmath-gcd/Logaritma%20Diskrit.png
 
 ## 7. Jawaban Pertanyaan
 Peran aritmetika modular dalam kriptografi:
