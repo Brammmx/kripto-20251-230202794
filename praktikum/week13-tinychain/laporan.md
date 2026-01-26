@@ -162,6 +162,8 @@ Pembahasan:
 
 4. Konsumsi Sumber Daya: PoW memerlukan komputasi intensif, yang tercermin dari perlunya mencoba banyak nonce sebelum menemukan hash yang valid.
 
+   https://github.com/Brammmx/kripto-20251-230202794/blob/53afb62eaf347fa9ba288f89b4278381855a81c9/praktikum/week13-tinychain/src/Screenshot%202026-01-26%20145327.png
+
 ## 7. Jawaban Pertanyaan
 Pertanyaan 1:
 Mengapa fungsi hash sangat penting dalam blockchain?
