@@ -164,7 +164,7 @@ Tanpa Salt: Hash yang sama untuk password yang sama memudahkan serangan rainbow 
 Password Lemah: Pengguna menggunakan password pendek dan umum.
 
 Dampak: 50.000 akun berhasil dibobol, menyebabkan kerugian finansial dan pencurian data pribadi.
-
+https://github.com/Brammmx/kripto-20251-230202794/blob/18e4bbe856337e35dcc8f86f0915746541a974b4/praktikum/week14-analisis-serangan/src/Screenshot%202026-01-26%20152209.png
 ## 7. Jawaban Pertanyaan
 Pertanyaan 1:
 Mengapa banyak sistem lama masih rentan terhadap brute force atau dictionary attack?
